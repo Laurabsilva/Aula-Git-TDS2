@@ -1,5 +1,44 @@
-// Laura Beatriz de Souza da Silva
+// Laura Beatriz de Souza da Silva 1TDS2
   
-//Exemplo de array
+//Exemplos de array
 
-let frutus = ["maçã", "banana", "laranja", "uva"];
+//Criando arrays com nomes de frutas e sucos
+let sucos = ["Laranja", "Uva", "Abacaxi", "Manga", "Maracujá"];
+console.log(sucos[0]);
+
+//Criando um array de números
+let numeros = [1, 2, 3, 4, 5];
+console.log(numeros[2]);
+
+//Acessando um elemento específico do array
+let animais = ["Cachorro", "Gato", "Pássaro", "Peixe"];
+console.log(animais[1]);
+
+//Alternando um elemento array 
+let times = ["Flamengo", "Palmeiras", "São Paulo", "Corinthians"];
+times[2] = "Vasco";
+console.log(times);
+
+//Descobrindo o tamanho do array
+let games = ["FIFA", "Call of Duty", "Minecraft", "Fortinite"];
+console.log(games.length)
+
+//Adicionando um elemento ao final do array
+let cores = ["Vermelho", "Azul", "Verde"];
+cores.push("Amarelo");
+console.log(cores);
+
+//Removendo o último elemento do array
+let carros = ["Fusca", "Gol", "Civic", "Corolla"];
+carros.pop();
+console.log(carros);
+
+//Removendo o primeiro elemento do array
+let cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba"];
+cidades.shift();
+console.log(cidades);
+
+//Adicionando um elemento no ínico do array 
+let países = ["Brasil", "Argentina", "Chile"];
+países.unshift("Uruguai");
+console.log(países);
